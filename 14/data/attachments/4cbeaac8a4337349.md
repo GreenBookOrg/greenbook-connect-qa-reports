@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "Host a Roundtable" [level=1] [ref=e6]
+    - button "Cancel" [ref=e7] [cursor=pointer]
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - img [ref=e12]:
+        - generic [ref=e14]: "1"
+      - generic [ref=e16]: Select Time Slot
+    - generic [ref=e18]:
+      - img [ref=e20]:
+        - generic [ref=e22]: "2"
+      - generic [ref=e24]: Select Table
+    - generic [ref=e26]:
+      - img [ref=e28]:
+        - generic [ref=e30]: "3"
+      - generic [ref=e32]: Enter Details
+    - generic [ref=e34]:
+      - img [ref=e36]:
+        - generic [ref=e38]: "4"
+      - generic [ref=e40]: Invite Attendees (Optional)
+  - generic [ref=e41]:
+    - heading "Select a time slot" [level=6] [ref=e42]
+    - generic [ref=e43]:
+      - button "Mar 22, 2026 1:00 PM - 2:00 PM 0/10 tables" [ref=e46] [cursor=pointer]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - heading "Mar 22, 2026" [level=6] [ref=e50]
+            - paragraph [ref=e51]: 1:00 PM - 2:00 PM
+          - generic [ref=e53]: 0/10 tables
+      - button "Mar 22, 2026 2:00 PM - 3:00 PM 7/10 tables" [ref=e56] [cursor=pointer]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - heading "Mar 22, 2026" [level=6] [ref=e60]
+            - paragraph [ref=e61]: 2:00 PM - 3:00 PM
+          - generic [ref=e63]: 7/10 tables
+      - button "Mar 22, 2026 3:00 PM - 4:00 PM 7/10 tables" [ref=e66] [cursor=pointer]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "Mar 22, 2026" [level=6] [ref=e70]
+            - paragraph [ref=e71]: 3:00 PM - 4:00 PM
+          - generic [ref=e73]: 7/10 tables
+      - button "Mar 22, 2026 4:00 PM - 5:00 PM 6/10 tables" [ref=e76] [cursor=pointer]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Mar 22, 2026" [level=6] [ref=e80]
+            - paragraph [ref=e81]: 4:00 PM - 5:00 PM
+          - generic [ref=e83]: 6/10 tables
+```

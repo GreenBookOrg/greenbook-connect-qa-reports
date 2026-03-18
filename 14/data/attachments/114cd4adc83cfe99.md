@@ -1,0 +1,194 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7] [cursor=pointer]
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - heading "Attendee List" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Browse all event attendees and send invitations
+    - generic [ref=e17]:
+      - generic [ref=e19]:
+        - img [ref=e21]
+        - textbox "Search by name, company, job title, or country..." [ref=e23]
+        - group
+      - generic [ref=e24]:
+        - generic [ref=e25]: Per Page
+        - generic [ref=e26]:
+          - combobox "Per Page" [ref=e27] [cursor=pointer]: "20"
+          - textbox: "20"
+          - img
+          - group:
+            - generic: Per Page
+    - table [ref=e29]:
+      - rowgroup [ref=e30]:
+        - row "First Name Last Name Company Job Title Roundtable Invite Private Meeting Invite Actions" [ref=e31]:
+          - columnheader "First Name" [ref=e32]:
+            - button "First Name" [ref=e33] [cursor=pointer]:
+              - text: First Name
+              - img [ref=e34]
+          - columnheader "Last Name" [ref=e36]:
+            - button "Last Name" [ref=e37] [cursor=pointer]:
+              - text: Last Name
+              - img [ref=e38]
+          - columnheader "Company" [ref=e40]:
+            - button "Company" [ref=e41] [cursor=pointer]:
+              - text: Company
+              - img [ref=e42]
+          - columnheader "Job Title" [ref=e44]:
+            - button "Job Title" [ref=e45] [cursor=pointer]:
+              - text: Job Title
+              - img [ref=e46]
+          - columnheader "Roundtable Invite" [ref=e48]
+          - columnheader "Private Meeting Invite" [ref=e49]
+          - columnheader "Actions" [ref=e50]
+      - rowgroup [ref=e51]:
+        - row "Brigette :) Waltz Test Account Test Account - - Send Invite" [ref=e52]:
+          - cell "Brigette :)" [ref=e53]
+          - cell "Waltz" [ref=e54]
+          - cell "Test Account" [ref=e55]
+          - cell "Test Account" [ref=e56]
+          - cell "-" [ref=e57]:
+            - paragraph [ref=e58]: "-"
+          - cell "-" [ref=e59]:
+            - paragraph [ref=e60]: "-"
+          - cell "Send Invite" [ref=e61]:
+            - button "Send Invite" [ref=e62] [cursor=pointer]:
+              - img [ref=e64]
+              - text: Send Invite
+        - row "John Doe 8910 President - - Send Invite" [ref=e66]:
+          - cell "John" [ref=e67]
+          - cell "Doe" [ref=e68]
+          - cell "8910" [ref=e69]
+          - cell "President" [ref=e70]
+          - cell "-" [ref=e71]:
+            - paragraph [ref=e72]: "-"
+          - cell "-" [ref=e73]:
+            - paragraph [ref=e74]: "-"
+          - cell "Send Invite" [ref=e75]:
+            - button "Send Invite" [ref=e76] [cursor=pointer]:
+              - img [ref=e78]
+              - text: Send Invite
+        - row "Brigette Small Greenbook Global Events Manager - - Send Invite" [ref=e80]:
+          - cell "Brigette" [ref=e81]
+          - cell "Small" [ref=e82]
+          - cell "Greenbook" [ref=e83]
+          - cell "Global Events Manager" [ref=e84]
+          - cell "-" [ref=e85]:
+            - paragraph [ref=e86]: "-"
+          - cell "-" [ref=e87]:
+            - paragraph [ref=e88]: "-"
+          - cell "Send Invite" [ref=e89]:
+            - button "Send Invite" [ref=e90] [cursor=pointer]:
+              - img [ref=e92]
+              - text: Send Invite
+        - row "R Kh Greenbook QA Engineer - - Send Invite" [ref=e94]:
+          - cell "R" [ref=e95]
+          - cell "Kh" [ref=e96]
+          - cell "Greenbook" [ref=e97]
+          - cell "QA Engineer" [ref=e98]
+          - cell "-" [ref=e99]:
+            - paragraph [ref=e100]: "-"
+          - cell "-" [ref=e101]:
+            - paragraph [ref=e102]: "-"
+          - cell "Send Invite" [ref=e103]:
+            - button "Send Invite" [ref=e104] [cursor=pointer]:
+              - img [ref=e106]
+              - text: Send Invite
+        - row "Webinars Test Webinar Events - - Send Invite" [ref=e108]:
+          - cell "Webinars" [ref=e109]
+          - cell "Test" [ref=e110]
+          - cell "Webinar" [ref=e111]
+          - cell "Events" [ref=e112]
+          - cell "-" [ref=e113]:
+            - paragraph [ref=e114]: "-"
+          - cell "-" [ref=e115]:
+            - paragraph [ref=e116]: "-"
+          - cell "Send Invite" [ref=e117]:
+            - button "Send Invite" [ref=e118] [cursor=pointer]:
+              - img [ref=e120]
+              - text: Send Invite
+        - row "Cara Balcom Greenbook Director of Global Events - - Send Invite" [ref=e122]:
+          - cell "Cara" [ref=e123]
+          - cell "Balcom" [ref=e124]
+          - cell "Greenbook" [ref=e125]
+          - cell "Director of Global Events" [ref=e126]
+          - cell "-" [ref=e127]:
+            - paragraph [ref=e128]: "-"
+          - cell "-" [ref=e129]:
+            - paragraph [ref=e130]: "-"
+          - cell "Send Invite" [ref=e131]:
+            - button "Send Invite" [ref=e132] [cursor=pointer]:
+              - img [ref=e134]
+              - text: Send Invite
+        - row "Sophie Brusnichkina - - - - Send Invite" [ref=e136]:
+          - cell "Sophie" [ref=e137]
+          - cell "Brusnichkina" [ref=e138]
+          - cell "-" [ref=e139]
+          - cell "-" [ref=e140]
+          - cell "-" [ref=e141]:
+            - paragraph [ref=e142]: "-"
+          - cell "-" [ref=e143]:
+            - paragraph [ref=e144]: "-"
+          - cell "Send Invite" [ref=e145]:
+            - button "Send Invite" [ref=e146] [cursor=pointer]:
+              - img [ref=e148]
+              - text: Send Invite
+        - row "Maxim Moskalenko Company JobTitle - - Send Invite" [ref=e150]:
+          - cell "Maxim" [ref=e151]
+          - cell "Moskalenko" [ref=e152]
+          - cell "Company" [ref=e153]
+          - cell "JobTitle" [ref=e154]
+          - cell "-" [ref=e155]:
+            - paragraph [ref=e156]: "-"
+          - cell "-" [ref=e157]:
+            - paragraph [ref=e158]: "-"
+          - cell "Send Invite" [ref=e159]:
+            - button "Send Invite" [ref=e160] [cursor=pointer]:
+              - img [ref=e162]
+              - text: Send Invite
+        - row "Katrin Vybrik Greenbook PM - - Send Invite" [ref=e164]:
+          - cell "Katrin" [ref=e165]
+          - cell "Vybrik" [ref=e166]
+          - cell "Greenbook" [ref=e167]
+          - cell "PM" [ref=e168]
+          - cell "-" [ref=e169]:
+            - paragraph [ref=e170]: "-"
+          - cell "-" [ref=e171]:
+            - paragraph [ref=e172]: "-"
+          - cell "Send Invite" [ref=e173]:
+            - button "Send Invite" [ref=e174] [cursor=pointer]:
+              - img [ref=e176]
+              - text: Send Invite
+        - row "Vlad 111 greenbook Newbie - - Send Invite" [ref=e178]:
+          - cell "Vlad" [ref=e179]
+          - cell "111" [ref=e180]
+          - cell "greenbook" [ref=e181]
+          - cell "Newbie" [ref=e182]
+          - cell "-" [ref=e183]:
+            - paragraph [ref=e184]: "-"
+          - cell "-" [ref=e185]:
+            - paragraph [ref=e186]: "-"
+          - cell "Send Invite" [ref=e187]:
+            - button "Send Invite" [ref=e188] [cursor=pointer]:
+              - img [ref=e190]
+              - text: Send Invite
+        - row "Dmitry Lashchenkov Greenbook Developer - - Send Invite" [ref=e192]:
+          - cell "Dmitry" [ref=e193]
+          - cell "Lashchenkov" [ref=e194]
+          - cell "Greenbook" [ref=e195]
+          - cell "Developer" [ref=e196]
+          - cell "-" [ref=e197]:
+            - paragraph [ref=e198]: "-"
+          - cell "-" [ref=e199]:
+            - paragraph [ref=e200]: "-"
+          - cell "Send Invite" [ref=e201]:
+            - button "Send Invite" [ref=e202] [cursor=pointer]:
+              - img [ref=e204]
+              - text: Send Invite
+    - paragraph [ref=e208]: Showing 1 - 12 of 12 attendees
+```

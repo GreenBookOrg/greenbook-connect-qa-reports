@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7] [cursor=pointer]
+      - generic [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: Connect
+        - text: Networking Portal
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: Test Event
+        - generic [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e16]: Eastern Time (UTC-04:00)
+      - button "R" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: R
+  - generic [ref=e20]:
+    - button "Back to Home" [ref=e21] [cursor=pointer]:
+      - img [ref=e23]
+      - text: Back to Home
+    - generic [ref=e25]:
+      - heading "My Profile" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Edit your event registration details
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Email
+        - generic [ref=e34]:
+          - textbox "Email" [disabled] [ref=e35]: rhokhlov@greenbook.org
+          - group:
+            - generic: Email
+        - paragraph [ref=e36]: Email cannot be changed
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - text: First Name
+          - generic [ref=e39]: "*"
+        - generic [ref=e40]:
+          - textbox "First Name" [ref=e41]: R
+          - group:
+            - generic: First Name *
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - text: Last Name
+          - generic [ref=e44]: "*"
+        - generic [ref=e45]:
+          - textbox "Last Name" [ref=e46]: Kh
+          - group:
+            - generic: Last Name *
+      - generic [ref=e47]:
+        - generic [ref=e48]: Job Title
+        - generic [ref=e49]:
+          - textbox "Job Title" [ref=e50]: QA Engineer
+          - group:
+            - generic: Job Title
+      - generic [ref=e51]:
+        - generic [ref=e52]: Company
+        - generic [ref=e53]:
+          - textbox "Company" [ref=e54]: Greenbook
+          - group:
+            - generic: Company
+      - generic [ref=e56] [cursor=pointer]:
+        - checkbox "Hide me from attendee lists When enabled, you won't appear in attendee lists or invitation dialogs" [ref=e59]
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Hide me from attendee lists
+          - paragraph [ref=e68]: When enabled, you won't appear in attendee lists or invitation dialogs
+      - generic [ref=e69]:
+        - button "Cancel" [ref=e70] [cursor=pointer]
+        - button "Save Changes" [disabled]
+```

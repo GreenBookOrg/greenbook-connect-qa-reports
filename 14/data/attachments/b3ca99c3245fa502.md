@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7] [cursor=pointer]
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - heading "Welcome, Ruslan!" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Ready to connect with fellow attendees? Choose an option below to get started.
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - img [ref=e21]
+        - heading "Book a Private Meeting" [level=6] [ref=e23]
+        - paragraph [ref=e24]: Schedule a 1:1 meeting with another attendee at a mutually convenient time
+        - button "Book a Private Meeting" [ref=e25] [cursor=pointer]:
+          - text: Book a Private Meeting
+          - img [ref=e27]
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: • Select your availability
+          - paragraph [ref=e31]: • Choose who to meet with
+          - paragraph [ref=e32]: • Invitee selects the time
+      - generic [ref=e35]:
+        - img [ref=e37]
+        - heading "Host a Roundtable" [level=6] [ref=e39]
+        - paragraph [ref=e40]: Lead a group discussion with multiple attendees on a specific topic
+        - button "Host a Roundtable" [ref=e41] [cursor=pointer]:
+          - text: Host a Roundtable
+          - img [ref=e43]
+        - button "Browse All Roundtables" [ref=e45] [cursor=pointer]:
+          - text: Browse All Roundtables
+          - img [ref=e47]
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: • Pick a specific time slot
+          - paragraph [ref=e51]: • Set your topic & description
+          - paragraph [ref=e52]: • Invite multiple attendees
+      - generic [ref=e55]:
+        - img [ref=e57]
+        - heading "Attendee List" [level=6] [ref=e59]
+        - paragraph [ref=e60]: Browse all event attendees and send invitations
+        - button "View Attendees" [ref=e61] [cursor=pointer]:
+          - text: View Attendees
+          - img [ref=e63]
+        - generic [ref=e65]:
+          - paragraph [ref=e66]: • Search and filter attendees
+          - paragraph [ref=e67]: • Send meeting invitations
+          - paragraph [ref=e68]: • Track invitation status
+    - generic [ref=e69]:
+      - button "0 My Invitations View and respond to meeting invites" [ref=e72] [cursor=pointer]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - img [ref=e76]
+            - generic: "0"
+          - generic [ref=e78]:
+            - heading "My Invitations" [level=6] [ref=e79]
+            - paragraph [ref=e80]: View and respond to meeting invites
+      - button "My Schedule See all confirmed meetings" [ref=e83] [cursor=pointer]:
+        - generic [ref=e84]:
+          - img [ref=e86]
+          - generic [ref=e88]:
+            - heading "My Schedule" [level=6] [ref=e89]
+            - paragraph [ref=e90]: See all confirmed meetings
+    - generic [ref=e92]:
+      - heading "Event Information" [level=6] [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "Available Time Slots" [level=6] [ref=e96]
+          - paragraph [ref=e97]: 4 time slots configured
+        - generic [ref=e98]:
+          - heading "Roundtable Tables" [level=6] [ref=e99]
+          - paragraph [ref=e100]: 10 tables available
+        - generic [ref=e101]:
+          - heading "Private Meeting Point" [level=6] [ref=e102]
+          - paragraph [ref=e103]: Location for private 1:1 meetings
+    - generic [ref=e106]:
+      - heading "Frequently Asked Questions" [level=6] [ref=e107]
+      - heading "Question 1" [level=3] [ref=e109]:
+        - button "Question 1" [ref=e110] [cursor=pointer]:
+          - paragraph [ref=e112]: Question 1
+          - img [ref=e114]
+      - heading "Question 2" [level=3] [ref=e117]:
+        - button "Question 2" [ref=e118] [cursor=pointer]:
+          - paragraph [ref=e120]: Question 2
+          - img [ref=e122]
+      - heading "Question 3" [level=3] [ref=e125]:
+        - button "Question 3" [ref=e126] [cursor=pointer]:
+          - paragraph [ref=e128]: Question 3
+          - img [ref=e130]
+```

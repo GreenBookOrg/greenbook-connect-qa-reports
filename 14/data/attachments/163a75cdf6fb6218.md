@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7] [cursor=pointer]
+      - generic [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: Connect
+        - text: Networking Portal
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: Test Event
+        - generic [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e16]: Eastern Time (UTC-04:00)
+      - button "R" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: R
+  - generic [ref=e20]:
+    - button "Back to Schedule" [ref=e21] [cursor=pointer]:
+      - img [ref=e23]
+      - text: Back to Schedule
+    - generic [ref=e25]:
+      - heading "Private Meeting Management" [level=1] [ref=e26]
+      - paragraph [ref=e27]: Manage your availability and send meeting invitations
+    - alert [ref=e29]:
+      - img [ref=e31]
+      - paragraph [ref=e35]:
+        - text: You have
+        - strong [ref=e36]: "1"
+        - text: available slot
+    - generic [ref=e37]:
+      - generic [ref=e40]:
+        - img [ref=e42]
+        - heading "Manage Availability" [level=5] [ref=e45]
+        - paragraph [ref=e46]: Set your available time slots for private meetings. Select the times when you're available to meet with other attendees.
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: • View all available time slots
+          - paragraph [ref=e49]: • Click to select your availability
+          - paragraph [ref=e50]: • Booked slots are protected
+        - button "Manage Availability" [ref=e51] [cursor=pointer]:
+          - img [ref=e53]
+          - text: Manage Availability
+      - generic [ref=e58]:
+        - img [ref=e60]
+        - heading "Send Invite" [level=5] [ref=e62]
+        - paragraph [ref=e63]: Invite another attendee to a private 1:1 meeting. They'll be able to choose from your available time slots.
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: • Search for attendees
+          - paragraph [ref=e66]: • Add optional title and description
+          - paragraph [ref=e67]: • Invitee selects the time
+        - button "Send Invite" [ref=e68] [cursor=pointer]:
+          - img [ref=e70]
+          - text: Send Invite
+```

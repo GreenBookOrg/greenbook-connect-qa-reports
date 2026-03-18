@@ -1,0 +1,100 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - img "Logo" [ref=e7] [cursor=pointer]
+      - generic [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: Connect
+        - text: Networking Portal
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: Test Event
+        - generic [ref=e12]:
+          - img [ref=e13]
+          - generic [ref=e16]: Eastern Time (UTC-04:00)
+      - button "R" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: R
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - heading "Welcome, Ruslan!" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Ready to connect with fellow attendees? Choose an option below to get started.
+    - generic [ref=e24]:
+      - generic [ref=e27]:
+        - img [ref=e29]
+        - heading "Book a Private Meeting" [level=6] [ref=e31]
+        - paragraph [ref=e32]: Schedule a 1:1 meeting with another attendee at a mutually convenient time
+        - button "Book a Private Meeting" [ref=e33] [cursor=pointer]:
+          - text: Book a Private Meeting
+          - img [ref=e35]
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: • Select your availability
+          - paragraph [ref=e39]: • Choose who to meet with
+          - paragraph [ref=e40]: • Invitee selects the time
+      - generic [ref=e43]:
+        - img [ref=e45]
+        - heading "Host a Roundtable" [level=6] [ref=e47]
+        - paragraph [ref=e48]: Lead a group discussion with multiple attendees on a specific topic
+        - button "Host a Roundtable" [ref=e49] [cursor=pointer]:
+          - text: Host a Roundtable
+          - img [ref=e51]
+        - button "Browse All Roundtables" [ref=e53] [cursor=pointer]:
+          - text: Browse All Roundtables
+          - img [ref=e55]
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: • Pick a specific time slot
+          - paragraph [ref=e59]: • Set your topic & description
+          - paragraph [ref=e60]: • Invite multiple attendees
+      - generic [ref=e63]:
+        - img [ref=e65]
+        - heading "Attendee List" [level=6] [ref=e67]
+        - paragraph [ref=e68]: Browse all event attendees and send invitations
+        - button "View Attendees" [ref=e69] [cursor=pointer]:
+          - text: View Attendees
+          - img [ref=e71]
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: • Search and filter attendees
+          - paragraph [ref=e75]: • Send meeting invitations
+          - paragraph [ref=e76]: • Track invitation status
+    - generic [ref=e77]:
+      - button "0 My Invitations View and respond to meeting invites" [ref=e80] [cursor=pointer]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic: "0"
+          - generic [ref=e86]:
+            - heading "My Invitations" [level=6] [ref=e87]
+            - paragraph [ref=e88]: View and respond to meeting invites
+      - button "My Schedule See all confirmed meetings" [ref=e91] [cursor=pointer]:
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - generic [ref=e96]:
+            - heading "My Schedule" [level=6] [ref=e97]
+            - paragraph [ref=e98]: See all confirmed meetings
+    - generic [ref=e100]:
+      - heading "Event Information" [level=6] [ref=e101]
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - heading "Available Time Slots" [level=6] [ref=e104]
+          - paragraph [ref=e105]: 4 time slots configured
+        - generic [ref=e106]:
+          - heading "Roundtable Tables" [level=6] [ref=e107]
+          - paragraph [ref=e108]: 10 tables available
+        - generic [ref=e109]:
+          - heading "Private Meeting Point" [level=6] [ref=e110]
+          - paragraph [ref=e111]: Location for private 1:1 meetings
+    - generic [ref=e114]:
+      - heading "Frequently Asked Questions" [level=6] [ref=e115]
+      - heading "Question 1" [level=3] [ref=e117]:
+        - button "Question 1" [ref=e118] [cursor=pointer]:
+          - paragraph [ref=e120]: Question 1
+          - img [ref=e122]
+      - heading "Question 2" [level=3] [ref=e125]:
+        - button "Question 2" [ref=e126] [cursor=pointer]:
+          - paragraph [ref=e128]: Question 2
+          - img [ref=e130]
+      - heading "Question 3" [level=3] [ref=e133]:
+        - button "Question 3" [ref=e134] [cursor=pointer]:
+          - paragraph [ref=e136]: Question 3
+          - img [ref=e138]
+```
